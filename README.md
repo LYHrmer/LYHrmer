@@ -1,11 +1,8 @@
 ## LYH
 
-机器人控制与运动规划方向研究生。做 RoboMaster 电控出身,现在主要做控制算法设计与多智能体路径规划。
-
 - 研究方向:多智能体路径规划(MAPF),终身场景下的执行层调度
 - 控制:LQR、滑模、ESO、阻抗与力位混合、约束 MPC、VMC,配套递推最小二乘辨识
 - 实现:STM32 裸机 C,以及 MuJoCo / Isaac Lab 里的可复现验证
-- 山东理工大学齐奇战队,2023 赛季电控组组长
 
 ### 控制算法
 
@@ -21,8 +18,6 @@
 
 ### 规划与决策
 
-**MAPF 执行层(研究中)** — 终身多智能体路径规划:在跟踪误差有界的前提下做执行期调度,论文撰写阶段。
-
 **[atec-robotics-projects](https://github.com/LYHrmer/atec-robotics-projects)** — ATEC 2026 仿真。四足带臂 RGB-D 闭环导航连续越障 286 m,残差 PPO 适配带臂机体与复杂地形;手写点云聚类抓取几何链配 DLS 解析 IK,抓取 18/18。
 
 **[robot-vision-control-lab](https://github.com/LYHrmer/robot-vision-control-lab)** — 从一帧图像到有界速度命令:四路 PnP 方案对比 + body-frame SE(3) 比例控制。PnP 6.03 mm / 1.06°,位姿伺服 4.44 s 收敛。
@@ -33,4 +28,3 @@
 
 ---
 
-<sub>除舵轮底盘是实车代码,其余为仿真验证。各仓库内标注了哪些结论已验证、哪些还不能用。</sub>
