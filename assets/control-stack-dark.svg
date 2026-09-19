@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="376" viewBox="0 0 880 376" role="img" aria-label="运动控制与规划技术栈分层图">
+<defs>
+  <marker id="arw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0,1 L9,5 L0,9 z" fill="#6e7681"/>
+  </marker>
+</defs>
+<style>.t{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","PingFang SC","Microsoft YaHei",Helvetica,Arial,sans-serif;font-size:13.5px;font-weight:600;fill:#e6edf3}.b{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","PingFang SC","Microsoft YaHei",Helvetica,Arial,sans-serif;font-size:11px;fill:#8b949e}.r{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;font-size:9.5px;fill:#58a6ff}.ax{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","PingFang SC","Microsoft YaHei",Helvetica,Arial,sans-serif;font-size:10px;fill:#6e7681}.bg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","PingFang SC","Microsoft YaHei",Helvetica,Arial,sans-serif;font-size:9px;font-weight:600;fill:#3fb950}</style>
+<line x1="34" y1="14" x2="34" y2="362" stroke="#6e7681" stroke-width="1.1" marker-end="url(#arw)"/>
+<text class="ax" transform="translate(25,188.0) rotate(-90)" text-anchor="middle">指令下行 · 状态上行</text>
+<clipPath id="c0"><rect x="60" y="8" width="812" height="64" rx="7"/></clipPath>
+<rect x="60" y="8" width="812" height="64" rx="7" fill="#161b22" stroke="#30363d"/>
+<rect x="60" y="8" width="5" height="64" fill="#58a6ff" fill-opacity="0.32" clip-path="url(#c0)"/>
+<text class="t" x="78" y="38">任务与路径规划</text>
+<text class="b" x="210" y="35">多智能体路径规划 · 终身场景执行调度 · RGB-D 闭环导航</text>
+<text class="r" x="210" y="54">MAPF 执行层（研究中） · atec-robotics-projects</text>
+<clipPath id="c1"><rect x="60" y="82" width="812" height="64" rx="7"/></clipPath>
+<rect x="60" y="82" width="812" height="64" rx="7" fill="#161b22" stroke="#30363d"/>
+<rect x="60" y="82" width="5" height="64" fill="#58a6ff" fill-opacity="0.48" clip-path="url(#c1)"/>
+<text class="t" x="78" y="112">轨迹生成与优化</text>
+<text class="b" x="210" y="109">约束 MPC · DLS 解析逆运动学 · 残差策略（PPO） · 地形课程</text>
+<text class="r" x="210" y="128">wheel-legged-control-lab · atec-robotics-projects</text>
+<clipPath id="c2"><rect x="60" y="156" width="812" height="64" rx="7"/></clipPath>
+<rect x="60" y="156" width="812" height="64" rx="7" fill="#161b22" stroke="#30363d"/>
+<rect x="60" y="156" width="5" height="64" fill="#58a6ff" fill-opacity="0.66" clip-path="url(#c2)"/>
+<text class="t" x="78" y="186">反馈控制</text>
+<text class="b" x="210" y="183">LQR · 滑模 SMC · ESO 扰动观测 · 阻抗 / 导纳 / 力位混合 · VMC</text>
+<text class="r" x="210" y="202">robot-arm-compliant-control-lab · gimbal-lqr-eso · gimbal-smc-controller</text>
+<clipPath id="c3"><rect x="60" y="230" width="812" height="64" rx="7"/></clipPath>
+<rect x="60" y="230" width="812" height="64" rx="7" fill="#161b22" stroke="#30363d"/>
+<rect x="60" y="230" width="5" height="64" fill="#58a6ff" fill-opacity="0.84" clip-path="url(#c3)"/>
+<text class="t" x="78" y="260">状态估计与辨识</text>
+<text class="b" x="210" y="257">递推最小二乘 · 编码器与摩擦辨识 · PnP 位姿 · IMU 融合</text>
+<text class="r" x="210" y="276">robot-vision-control-lab · gimbal-lqr-eso</text>
+<clipPath id="c4"><rect x="60" y="304" width="812" height="64" rx="7"/></clipPath>
+<rect x="60" y="304" width="812" height="64" rx="7" fill="#161b22" stroke="#30363d"/>
+<rect x="60" y="304" width="5" height="64" fill="#58a6ff" fill-opacity="1.0" clip-path="url(#c4)"/>
+<text class="t" x="78" y="334">执行器与实时层</text>
+<text class="b" x="210" y="331">GM6020 电流模式 · DM4310 MIT 力矩 · 2 ms 控制周期 · FreeRTOS</text>
+<text class="r" x="210" y="350">Rudder-Swerve-Control（实车）</text>
+<rect x="798" y="316" width="58" height="17" rx="8.5" fill="#132d1b"/><text class="bg" x="827" y="327.5" text-anchor="middle">上车验证</text>
+</svg>
