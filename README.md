@@ -1,6 +1,6 @@
 ## LYH
 
-机器人控制与运动规划方向研究生,秋招方向为**运动控制 / 规划控制**。做 RoboMaster 电控出身,现在主要做控制算法设计与多智能体路径规划。
+秋招方向:**运动控制 / 规划控制**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/control-stack-dark.svg">
@@ -55,12 +55,6 @@
 </tr>
 </table>
 
-**MAPF 执行层(研究中)** —— 终身多智能体路径规划:在跟踪误差有界的前提下做执行期调度,论文撰写阶段。
-
 ### 技术栈
 
 最优控制与鲁棒控制、力控与柔顺控制、系统辨识、多智能体路径规划、强化学习 · C99/C11、Python、C++ · MuJoCo、Isaac Lab、PyTorch、ONNX · STM32F4、FreeRTOS、CMSIS-DSP、CAN · OpenCV、相机标定、PnP · ROS/ROS2、CMake、pytest
-
----
-
-<sub>除舵轮底盘为实车代码,其余均为仿真验证。各仓库内标注了哪些结论已验证、哪些还不能用,失败项按原样保留。</sub>
