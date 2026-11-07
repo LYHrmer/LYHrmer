@@ -35,21 +35,24 @@ METRICS = [
 
 # (层名, 技术点, 对应仓库, 色条不透明度)
 LAYERS = [
-    ("任务与路径规划", "多智能体路径规划 · 终身执行调度 · RGB-D 闭环导航",
-     "MAPF 研究线 · atec-robotics-projects", 0.30),
     ("轨迹生成与优化", "约束 MPC · DLS 解析逆运动学 · 残差策略 PPO · ONNX 实时推理",
-     "wheel-legged-control-lab · ddt-d1-rl-lab", 0.47),
+     "wheel-legged-control-lab · ddt-d1-rl-lab", 0.30),
     ("反馈控制", "LQR · 滑模 SMC · ESO 扰动观测 · 阻抗 / 导纳 / 力位混合 · VMC",
-     "robot-arm-compliant-control-lab · gimbal-lqr-eso · gimbal-smc-controller", 0.65),
+     "robot-arm-compliant-control-lab · gimbal-lqr-eso · gimbal-smc-controller", 0.47),
     ("状态估计与辨识", "递推最小二乘 · 编码器与摩擦辨识 · PnP 位姿 · IMU 融合",
-     "robot-vision-control-lab · gimbal-lqr-eso · 系统辨识课程", 0.82),
+     "robot-vision-control-lab · gimbal-lqr-eso", 0.65),
     ("执行器与实时层", "GM6020 电流模式 · DM4310 MIT 力矩 · 50–100 Hz 决策 / 500 Hz 物理 · FreeRTOS",
-     "Rudder-Swerve-Control · ddt-d1-rl-lab", 1.0),
+     "Rudder-Swerve-Control · ddt-d1-rl-lab", 0.82),
+    ("感知、导航与仿真", "RGB-D 闭环导航 · 点云聚类抓取 · 连续越障",
+     "atec-robotics-projects", 1.0),
 ]
+
+# 「赛季实车验证」只贴在有实车证据的那一层
+BADGE_ROW = 3
 
 # 底部统计：只写结构性事实，不写会随提交变化的小数字
 FOOT_LEFT = "控制栈 5 层 · 公开项目 16"
-FOOT_RIGHT = "研究 · 实车 · 教学 · 工具 · 更新 2026-11"
+FOOT_RIGHT = "实车 · 仿真 · 工具 · 更新 2026-11"
 
 FONT = ('-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC",'
         '"PingFang SC","Microsoft YaHei",Helvetica,Arial,sans-serif')
@@ -131,7 +134,7 @@ def build():
         o.append(f'<text class="tc" x="{TECH_X}" y="{y + 25}">{esc(tech)}</text>')
         o.append(f'<text class="rp" x="{TECH_X}" y="{y + 42}">{esc(repos)}</text>')
 
-        if i == len(LAYERS) - 1:
+        if i == BADGE_ROW:
             bw = 78
             bx = PAD + cw - bw - 16
             o.append(f'<rect x="{bx}" y="{y + 19}" width="{bw}" height="20" rx="10" '
