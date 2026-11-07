@@ -48,7 +48,7 @@ LAYERS = [
 ]
 
 # 底部统计：只写结构性事实，不写会随提交变化的小数字
-FOOT_LEFT = "控制栈 5 层 · 公开项目 15"
+FOOT_LEFT = "控制栈 5 层 · 公开项目 16"
 FOOT_RIGHT = "研究 · 实车 · 教学 · 工具 · 更新 2026-11"
 
 FONT = ('-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC",'
