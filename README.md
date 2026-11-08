@@ -3,10 +3,6 @@
   <img src="./assets/hero-light.svg" width="100%" alt="LYH · 机器人控制与规划 · 从任务规划到执行器实时层">
 </picture>
 
-做机器人控制与规划。项目大多落在实车或整机上，并留下可复现的验证记录——从整机动力学与约束 MPC，一路做到 500 Hz 的嵌入式执行层。
-
-现在：MAPF 终身执行研究；轮足强化学习 sim2real。
-
 ## 精选
 
 <p align="center">
