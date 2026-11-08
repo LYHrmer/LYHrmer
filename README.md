@@ -19,7 +19,15 @@
 
 ## 控制栈
 
-按控制栈从上到下。附链接的是公开仓库，其余未公开、可当面演示。
+按控制栈从上到下，右侧是各层的代表指标。明细收在下面的折叠区里：附链接的是公开仓库，其余未公开、可当面演示。
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <img src="./assets/stack-light.svg" width="100%" alt="控制栈 5 层：轨迹生成与优化、反馈控制、状态估计与辨识、执行器与实时层、感知导航与仿真">
+</picture>
+
+<details>
+<summary>展开各层仓库与可核验结果</summary>
 
 ### 01 · 轨迹生成与优化
 
@@ -48,6 +56,8 @@
 
 - [atec-robotics-projects](https://github.com/LYHrmer/atec-robotics-projects) — 四足带臂 RGB-D 闭环导航与抓取；连续越障 286 m，同赛道调参提速 9.6%，抓取 18/18
 - db-lacam-learning — db-LaCAM 中文学习与复盘：LIMO 跟踪、实验对比与可运行审计工具
+
+</details>
 
 ## 工具与技能
 
