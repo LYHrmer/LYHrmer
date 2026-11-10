@@ -8,9 +8,9 @@
 
 ## 精选
 
-<a href="https://github.com/LYHrmer/Rudder-Swerve-Control"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-swerve-v4-dark.jpg"><img src="./assets/card-swerve-v4-light.jpg" width="100%" alt="RoboMaster 2024 辽宁站四舵轮步兵实车"></picture></a>
+<a href="https://github.com/LYHrmer/Rudder-Swerve-Control"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-swerve-v5-dark.jpg"><img src="./assets/card-swerve-v5-light.jpg" width="620" alt="RoboMaster 2025 半舵 4 号机赛场实拍"></picture></a>
 
-<a href="https://github.com/LYHrmer/atec-robotics-projects"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-atec-v2-dark.jpg"><img src="./assets/card-atec-v2-light.jpg" width="100%" alt="ATEC 四足带臂连续越障仿真画面"></picture></a>
+<a href="https://github.com/LYHrmer/atec-robotics-projects"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-atec-v2-dark.jpg"><img src="./assets/card-atec-v2-light.jpg" width="620" alt="ATEC 四足带臂连续越障仿真画面"></picture></a>
 
 ### 三种控制器，同场对比
 
@@ -20,7 +20,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/ctrl-compare-v4-dark.jpg">
-  <img src="./assets/ctrl-compare-v4-light.jpg" width="100%" alt="t=4.0 s 定格：LQR、MPC、LQR+PPO 三控制器并排，v 分别为 +0.43、+0.42、-0.17 m/s">
+  <img src="./assets/ctrl-compare-v4-light.jpg" width="460" alt="t=4.0 s 定格：LQR、MPC、LQR+PPO 三控制器并排，v 分别为 +0.43、+0.42、-0.17 m/s">
 </picture>
 
 t = 4.0 s 定格：三者 θ 都约 −5.5°，差别在 v——LQR +0.43、MPC +0.42，LQR + PPO 已回到 −0.17 m/s；t = 7.9 s 时三者都收敛。
